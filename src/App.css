@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write your CSS code here */
+.main-container {
+  height: 600px;
+  width: 900px;
+  margin: 200px auto;
+  border: 3px solid #6d396b;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main-Element {
+  grid-column: 1/-1;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-container {
+  display: flex;
+  margin-left: 25px;
+}
+
+.image {
+  height: 45px;
+}
+
+.para {
+  margin-left: 15px;
+  font-size: 32px;
+  color: #12022f;
+}
+
+.para1 {
+  color: #551e53;
+  font-size: 52px;
+  text-align: center;
+}
+
+.image1 {
+  height: 170px;
+}
+
+.para2 {
+  margin-top: 25px;
+  color: #555555;
+  font-size: 25px;
+}

@@ -1,0 +1,11 @@
+.Header {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-size: 32px;
+  color: #12022f;
+  text-decoration: none;
+  padding: 0 15px;
+}
